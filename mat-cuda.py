@@ -41,6 +41,6 @@ print(f"GPU terminada en: {gpu_time:.3f} segundos")
 
 # Calcular cuánto más rápido es la GPU comparada con la CPU
 speedup = cpu_time / gpu_time
-print(f"\n⚡ Aceleración GPU vs CPU: {speedup:.2f}x más rápido")
+print(f"\nAceleración GPU vs CPU: {speedup:.2f}x más rápido")
 
 print("\nPrograma terminado")
